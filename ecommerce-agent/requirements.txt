@@ -1,0 +1,41 @@
+# ============================================================
+# 电商 AI Agent 依赖清单
+# ============================================================
+
+# ---- 核心框架（最新稳定版）----
+langchain==1.4.0
+langchain-core==1.6.3
+langchain-openai==1.6.2
+langchain-community==0.4.2
+langgraph==1.2.11
+langsmith==0.4.0
+
+# ---- LLM ----
+openai==3.13.0
+dashscope==1.22.1
+
+# ---- 数据库 ----
+sqlalchemy[asyncio]==2.0.54
+asyncpg==0.30.0
+alembic==1.15.2
+
+# ---- Redis ----
+redis==7.4.0
+hiredis==3.4.1
+
+# ---- Milvus ----
+pymilvus==2.5.10
+
+# ---- Web框架 ----
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+python-dotenv==1.1.0
+python-multipart==0.0.20
+
+# ---- 数据处理 ----
+pandas==2.2.3
+
+# ---- 工具 ----
+pydantic==2.11.3
+pydantic-settings==2.9.1
+httpx==0.28.1
